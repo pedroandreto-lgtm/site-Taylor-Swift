@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taylor Swift</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+    }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), url('https://picsum.photos/id/1015/2000/1200');
+      background-size: cover;
+      background-position: center;
+    }
+    .eras {
+      transition: all 0.5s ease;
+    }
+    .eras:hover {
+      transform: scale(1.08);
+      filter: brightness(1.1);
+    }
+  </style>
+</head>
+<body class="bg-zinc-950 text-white">
+
+  <!-- HERO -->
+  <section class="hero h-screen flex items-center justify-center text-center relative">
+    <div class="relative z-10 px-6 max-w-5xl">
+      <h1 class="text-7xl md:text-8xl font-bold tracking-tighter mb-4">TAYLOR SWIFT</h1>
+      <p class="text-4xl text-amber-300 font-light">"The Tortured Poets Department"</p>
+      <p class="mt-8 text-xl max-w-lg mx-auto">A maior estrela pop de todos os tempos. 14 álbuns. 14 eras. Uma lenda.</p>
+    </div>
+  </section>
+
+  <!-- ERAS -->
+  <section class="py-20 bg-black">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-5xl font-bold text-center mb-16">The Eras</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="eras bg-gradient-to-br from-red-500 to-pink-600 p-8 rounded-3xl text-center cursor-pointer">
+          <span class="block text-4xl mb-3">❤️</span>
+          <h3 class="font-bold text-xl">Red</h3>
+        </div>
+        <div class="eras bg-gradient-to-br from-purple-600 to-indigo-600 p-8 rounded-3xl text-center cursor-pointer">
+          <span class="block text-4xl mb-3">💜</span>
+          <h3 class="font-bold text-xl">Reputation</h3>
+        </div>
+        <div class="eras bg-gradient-to-br from-blue-400 to-cyan-400 p-8 rounded-3xl text-center cursor-pointer">
+          <span class="block text-4xl mb-3">🩵</span>
+          <h3 class="font-bold text-xl">1989</h3>
+        </div>
+        <div class="eras bg-gradient-to-br from-yellow-400 to-amber-500 p-8 rounded-3xl text-center cursor-pointer">
+          <span class="block text-4xl mb-3">🧡</span>
+          <h3 class="font-bold text-xl">Fearless</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIO -->
+  <section class="py-24 bg-zinc-900">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+      <div>
+        <h2 class="text-5xl font-bold mb-8">A História</h2>
+        <div class="space-y-6 text-lg leading-relaxed text-zinc-300">
+          <p>Taylor Alison Swift nasceu em 13 de dezembro de 1989 na Pensilvânia, EUA. Começou a carreira country aos 16 anos e se tornou a artista mais premiada da história da música.</p>
+          <p>Com mais de 300 prêmios, incluindo 14 Grammys de Álbum do Ano (recorde), ela redefiniu a indústria musical com seus regravados "Taylor's Version".</p>
+          <p>É a única artista com mais de 100 milhões de ouvintes mensais no Spotify por tanto tempo.</p>
+        </div>
+      </div>
+      <div class="bg-zinc-800 p-2 rounded-3xl">
+        <img src="https://picsum.photos/id/201/800/1000" class="rounded-3xl" alt="Taylor Swift">
+      </div>
+    </div>
+  </section>
+
+  <!-- TOP HITS -->
+  <section class="py-24 bg-black">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-5xl font-bold text-center mb-16">Seus Maiores Hits</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="group bg-zinc-900 rounded-3xl overflow-hidden">
+          <div class="h-64 bg-[url('https://picsum.photos/id/237/600/400')] bg-cover"></div>
+          <div class="p-8">
+            <h3 class="text-2xl font-bold">Anti-Hero</h3>
+            <p class="text-amber-400">Midnights • 2022</p>
+          </div>
+        </div>
+        <div class="group bg-zinc-900 rounded-3xl overflow-hidden">
+          <div class="h-64 bg-[url('https://picsum.photos/id/180/600/400')] bg-cover"></div>
+          <div class="p-8">
+            <h3 class="text-2xl font-bold">Cruel Summer</h3>
+            <p class="text-amber-400">Lover • 2019</p>
+          </div>
+        </div>
+        <div class="group bg-zinc-900 rounded-3xl overflow-hidden">
+          <div class="h-64 bg-[url('https://picsum.photos/id/251/600/400')] bg-cover"></div>
+          <div class="p-8">
+            <h3 class="text-2xl font-bold">Fortnight</h3>
+            <p class="text-amber-400">The Tortured Poets Department • 2024</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-zinc-950 py-16 text-center border-t border-amber-900">
+    <p class="text-3xl font-light text-amber-300">"I love you to the moon and to Saturn"</p>
+    <p class="mt-6 text-zinc-500">Taylor Swift Fan Page • Feito com carinho para você</p>
+  </footer>
+
+</body>
+</html>
